@@ -1,0 +1,15 @@
+C:\Projects\Pakaterishi\bin\Debug\net8.0\Pakaterishi.exe
+C:\Projects\Pakaterishi\bin\Debug\net8.0\Pakaterishi.deps.json
+C:\Projects\Pakaterishi\bin\Debug\net8.0\Pakaterishi.runtimeconfig.json
+C:\Projects\Pakaterishi\bin\Debug\net8.0\Pakaterishi.dll
+C:\Projects\Pakaterishi\bin\Debug\net8.0\Pakaterishi.pdb
+C:\Projects\Pakaterishi\obj\Debug\net8.0\Pakaterishi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\Pakaterishi\obj\Debug\net8.0\Pakaterishi.AssemblyInfoInputs.cache
+C:\Projects\Pakaterishi\obj\Debug\net8.0\Pakaterishi.AssemblyInfo.cs
+C:\Projects\Pakaterishi\obj\Debug\net8.0\Pakaterishi.csproj.CoreCompileInputs.cache
+C:\Projects\Pakaterishi\obj\Debug\net8.0\Pakaterishi.sourcelink.json
+C:\Projects\Pakaterishi\obj\Debug\net8.0\Pakaterishi.dll
+C:\Projects\Pakaterishi\obj\Debug\net8.0\refint\Pakaterishi.dll
+C:\Projects\Pakaterishi\obj\Debug\net8.0\Pakaterishi.pdb
+C:\Projects\Pakaterishi\obj\Debug\net8.0\Pakaterishi.genruntimeconfig.cache
+C:\Projects\Pakaterishi\obj\Debug\net8.0\ref\Pakaterishi.dll

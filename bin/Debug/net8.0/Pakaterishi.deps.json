@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Pakaterishi/1.0.0": {
+        "runtime": {
+          "Pakaterishi.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Pakaterishi/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
