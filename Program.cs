@@ -87,8 +87,7 @@ Console.WriteLine("\n");
 string[] guestList = { "Rebecca", "Nadia", "Noor", "Jonte" };
 string[] rsvps = new string[10];
 int count = 0;
-
-void RSVP(string name, int partySize, string allergies, bool inviteOnly) {
+void RSVP(string name, int partySize = 1, string allergies = "none", bool inviteOnly = true) {
     if (inviteOnly) {
         bool found = false;
         foreach (string guest in guestList) {
@@ -110,4 +109,35 @@ void ShowRSVPs() {
     for (int i = 0; i < count; i++) {
         Console.WriteLine(rsvps[i]);
     }
+}
+RSVP("Rebecca");
+RSVP("Nadia", 2, "Nuts");
+RSVP(name: "Linh", partySize: 2, inviteOnly: false);
+RSVP("Tony", allergies: "Jackfruit", inviteOnly: true);
+RSVP("Noor", 4, inviteOnly: false);
+RSVP("Jonte", 2, "Stone fruit", false);
+ShowRSVPs();
+Console.WriteLine("\n");
+
+string[,] corporate = {
+    {"Robert", "Bavin"}, {"Simon", "Bright"},
+    {"Kim", "Sinclair"}, {"Aashrita", "Kamath"},
+    {"Sarah", "Delucchi"}, {"Sinan", "Ali"}
+};
+string[,] external = {
+    {"Vinnie", "Ashton"}, {"Cody", "Dysart"},
+    {"Shay", "Lawrence"}, {"Daren", "Valdes"}
+};
+string externalDomain = "hayworth.com";
+for (int i = 0; i < corporate.GetLength(0); i++) {
+    string firstName = corporate[i, 0].ToLower();
+    string lastName = corporate[i, 1].ToLower();
+    string email = $"{firstName[0]}{lastName}@contoso.com";
+    Console.WriteLine(email);
+}
+for (int i = 0; i < external.GetLength(0); i++) {
+    string firstName = external[i, 0].ToLower();
+    string lastName = external[i, 1].ToLower();
+    string email = $"{firstName[0]}{lastName}@{externalDomain}";
+    Console.WriteLine(email);
 }
